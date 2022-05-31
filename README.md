@@ -1,0 +1,493 @@
+Welcome to AgroVille
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" type="text/css" href="/css/correction.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+  <title>Trend!ng News</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+    body{
+      font-family: 'Poppins', sans-serif;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar sticky-top navbar-expand-md navbar-light btn-light shadow">
+    <div class="container-xxl">
+      <a class="navbar-brand me-5" href="#">
+        <img src="/img/ag.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        <span class="aa" data-bs-placement="bottom" title="Welcome to our website">
+          <b>AGROVILLE</b>
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-bold" href="#Products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-bold" href="#Pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-bold" href="#About Us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-bold" href="#Help">Help</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More Info
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-dark" href="#">Columns</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Opinions</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-dark" href="#">Videos</a></li>
+            </ul>
+          </li>  
+        </ul>
+        
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-danger bg-danger text-white mx-3" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <h1><div class="lead text-muted fw-light ms-5 mt-3"><b>Welcome to Agroville Store</b></div></h1>
+    <h2 class="display-5 text-center fw-bold ms-5 mt-3">Your one stop for Fresh Agricultural produce</h2>
+  </div>
+    <!-- <button class="btn-sm btn-secondary mb-5 ms-5 shadow">Find out More</button> -->
+  <!-- Icon and Home -->
+  <section id="Home">
+    <div class="container-fluid">
+      <div class="row justify-content-center m-5">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="list-group list-group-flush px-5">
+            <button type="button" class="list-group-item list-group-item-action text-dark fw-bold mt-5 mb-3 active" aria-current="true" style="background-color: rgb(179, 253, 179); border-radius: 10px;">
+              OUR PRODUCTS
+            </button>
+            <button type="button" class="list-group-item list-group-item-action text-dark fw-bold mb-3">Organic</button>
+            <button type="button" class="list-group-item list-group-item-action text-dark fw-bold mb-3">Livestocks</button>
+            <button type="button" class="list-group-item list-group-item-action text-dark fw-bold mb-3">Edibles</button>
+            <button type="button" class="list-group-item list-group-item-action text-dark fw-bold mb-3">Foods</button>
+            <button type="button" class="list-group-item list-group-item-action text-dark fw-bold mb-3">Seed/Seedlings</button>
+            <button type="button" class="list-group-item list-group-item-action text-dark fw-bold mb-3">Agro-chemicals</button>
+            <button type="button" class="list-group-item list-group-item-action text-dark fw-bold mb-3">Day-Old Chick</button>
+            <button type="button" class="list-group-item list-group-item-action text-dark fw-bold mb-3">Agro-services</button>
+          </div>
+        </div>
+        <div class="col-md-5 text-center mt-5">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid" src="/img/slide2.jpg" class="d-block" style=" width: 100%;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid" src="/img/slide.jpg" class="d-block" style="width: 100%;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid" src="/img/slide3.jpg" class="d-block" style="width: 100%;" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br style="background-color: white;">
+
+  <!-- product listing -->
+  <section id="Products" class="mt-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Our Products</h2>
+      </div>
+      <div class="row my-5 align-items-center justify-content-center g-5">
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card mx-3">
+            <img src="/img/organic.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Organic</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card mx-3">
+            <img src="/img/livestock.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Livestocks</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card mx-3">
+            <img src="/img/livestock equip.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Livestock-equipment</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card mx-3 my-3">
+            <img src="/img/insecticide.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Insecticide</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card px-3">
+            <img src="/img/agro-chemicals.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Agro-chemicals</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card px-3">
+            <img src="/img/day old chick.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Day old chick</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card px-3">
+            <img src="/img/fungicides.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Fungicides</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card px-3">
+            <img src="/img/agro-chem-equip.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Agro-chemical Equipments</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card px-3">
+            <img src="/img/agroservices.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Agro-services</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-6 col-xl-3">
+          <div class="card px-3">
+            <img src="/img/animalfeeds.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="color: black;">Animal Feeds</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <!-- product pricing -->
+  <section id="Pricing">
+    <div class="container-fluid">
+      <div class="text-center mb-3">
+        <h2><i class="bi bi-tags-fill"></i>Prices</h2>
+      </div>
+
+      <div class="row align-items-center justify-content-center m-5">
+        <div class="col-8 col-lg-4 col-xl-2">
+          <div class="card mb-2">
+            <img src="/img/baskettomato.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center py-4">
+              <h3 class="card-title" style="color: black;">Basket Tomato</h3>
+              <p class="my-4 text-secondary">#6,599.99 - #8,999.99 <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3"> Buy now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card mb-2">
+            <img src="/img/rice.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center py-4">
+              <h3 class="card-title" style="color: black;">Bag of Rice</h3>
+              <p class="my-4 text-secondary">#30,599.99 - #37,999.99 <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3"> Buy now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-2">
+          <div class="card mb-2">
+            <img src="/img/crate of egg.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center py-4">
+              <h3 class="card-title" style="color: black;">Crate of Egg</h3>
+              <p class="my-4 text-secondary">#1,299.99 - #1,599.99 <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3"> Buy now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-2">
+          <div class="card mb-2">
+            <img src="/img/dd force.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center py-4">
+              <h3 class="card-title" style="color: black;">DD Force</h3>
+              <p class="my-4 text-secondary">#5,299.99 - #7,599.99 <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3"> Buy now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-2">
+          <div class="card mb-2">
+            <img src="/img/fungi.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center py-4">
+              <h3 class="card-title" style="color: black;">Fungicides</h3>
+              <p class="my-4 text-secondary">#8,299.99 - #11,599.99 <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3"> Buy now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card mt-3">
+            <img src="/img/fish.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center py-4">
+              <h3 class="card-title" style="color: black;">Carton of Fish</h3>
+              <p class="my-4 text-secondary">#45,299.99 - #48,599.99 <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3"> Buy now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card mt-3">
+            <img src="/img/gizzard.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center py-4">
+              <h3 class="card-title" style="color: black;">Pack of Gizzard</h3>
+              <p class="my-4 text-secondary">#2,299.99 - #2,999.99 <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3"> Buy now</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- More info Opinion and query -->
+  <section id="Help">
+    <div class="container-fluid my-5">
+      <h2 class="text-center">For more info</h2>
+      <h5 class="lead text-muted text-center">Questions to ask? Fill out the form to contact us directly</h5>
+      <div class="row justify-content-center my-3">
+        <div class="col-lg-6 mt-5">
+          <form>
+            <label for="email" class="form-label">Email address</label>
+            <div class="mb-3 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-open"></i>
+              </span>
+              <input type="email" class="form-control" id="email" placeholder="e.g food@yourmail.com">
+              <span class="input-group-text">
+                <span class="aa" data-bs-placement="bottom" title="Enter a valid email we can reply to">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            
+            <label for="name" class="form-label">Your name</label>
+            <div class="mb-3 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill"></i>
+              </span>
+              <input type="text" class="form-control" id="name" placeholder="e.g potato">
+              <span class="input-group-text">
+                <span class="aa" data-bs-placement="bottom" title="Enter your full name">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            
+            <label for="subject" class="form-label">What's your question about</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill"></i>
+              </span>
+              <select id="subject" class="form-select">
+                <option value="Product" selected>Product query</option>
+                <option value="Pricing">Pricing query</option>
+                <option value="Delivery">Delivery query</option>
+              </select>
+            </div>
+            
+            <div class="form-floating mt-4">
+              <textarea id="query" class="form-control" style="height: 140px;"></textarea>
+              <label for="query" class="text-dark">Your query</label>
+            </div>
+
+            <div class="text-center mt-4">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+                        
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- help -->
+  <section id="Help" style="background-color: azure;">
+    <div class="container-fluid m-5">
+      <div class="row justify-content-center my-3">
+        <div class="col-lg-6 col-xl-3">
+          <span class="aa" data-bs-placement="bottom" title="we are happy to serve you">
+            <img src="/img/fruitbasket.jpg" class="py-2" alt="">
+          </span>
+        </div>
+
+        <div class="col-lg-6 col-xl-3 my-4">
+          <div class="bravo">
+            <a href="#" class="fw-bold text-dark ps-2" style="text-decoration: none;">INFORMATION</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;" id="About Us">About Us</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">Delivery Information</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">Privacy & Policy</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">Terms & Conditions</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">How To Be A Vendor</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-3 my-4">
+          <div class="bravo">
+            <a href="#" class="fw-bold text-dark ps-2" style="text-decoration: none;">User Area</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">My Cart <i class="bi bi-cart ps-2"></i></a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">Wishlist</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">Checkout</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">My Account</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">For Bulk or Special Order</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-3 my-4">
+          <div class="bravo">
+            <a href="#" class="fw-bold text-dark ps-2" style="text-decoration: none;">Contact Info</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;"> <i class="bi bi-telephone-fill px-2 pt-1"></i>+234 1 234 5678</a>
+            <a href="#" class="fw-light m-2 text-dark  d-flex" style="text-decoration: none;">Plot 29, Valentine Enwerem cres, Off Nnakwugo Vincent Boulevard, Isuofia, Anambra, 902355 Nigeria</a>
+            <a href="#" class="fw-light m-2 d-flex" style="text-decoration: none;">comrades@agroville.com</a>
+            <a href="#" class="fw-light m-2 text-muted  d-flex" style="text-decoration: none;">
+              <i class="bi bi-facebook ps-3"></i> 
+              <i class="bi bi-twitter ps-3"></i>
+              <i class="bi bi-youtube ps-3"></i>
+              <i class="bi bi-instagram ps-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid mt-5">
+      <div class="row justify-content-center my-3">
+        <div class="col-lg-6 col-xl-4">
+          <img src="/img/mastercard.jpg" alt="">
+        </div>
+
+        <div class="col-lg-6 col-xl-3">
+          <span class="aa" data-bs-placement="bottom" title="Agroville-main-website">
+            <img src="/img/ag.png" class="py-2" alt="" width="100" height="124">
+          </span>
+        </div>
+
+      
+        
+      </div>
+
+    </div>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script>
+    const tooltips=document.querySelectorAll('.aa')
+    tooltips.forEach(t=>{
+      new bootstrap.Tooltip(t)
+    })
+  </script>
+</body>
+</html>
